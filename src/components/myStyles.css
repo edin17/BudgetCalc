@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+#root{
+    background-color: rgb(188,143,143,0.9);
+    text-align: center;
+    height: auto;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+input{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 200px;
+    border-radius: 20px;
+    border:none;
+    background-color: white;
+    color: rosybrown;
+}
+h1{
+    margin-top: 100px;
+}
+.info ,.changes{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    
+    font-size: large;
+    text-decoration: inherit;
+    
+}
+
+button{
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+li{
+    text-align: right;
+}
+ul{
+    text-align: center;
+    position: relative;
+    
+    
+    width: 55%;
+}
+main{
+    text-align: center;
+}
+.pricee{
+    margin-right: 55px;
+   
+}
+.name{
+    margin-right: 15%;
+    text-align: left;
+}
+
+
+
+@media(max-width:1050px){
+    input{
+        width: 70px;
+    }
+    #root{
+        top:00px;
+    }
+
+    .name,.pricee{
+        margin-left: 0px;
+       
+        }
+        .pricee{
+            margin-right: 55px;
+        }
+
+        .info ,.changes{
+            font-size: medium;
+            
+            
+}
+
+ul{
+    text-align: center;
+    position: relative;
+    
+}
+}
